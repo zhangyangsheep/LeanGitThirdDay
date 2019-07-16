@@ -77,3 +77,13 @@ a5a02fb HEAD@{6}: commit (initial): write a readme text file
 
 stage : Git暂存区的概念  git add
 head指向工作区  git commit
+
+工作区 （我本机存放文件的地方）
+	↓
+暂存区 （add到缓存区，提交到版本库前即commit前）
+	↓
+版本库 （commit缓存区中的修改，到版本库中repository)
+	
+缓存区回退到工作区 （git reset HEAD <file>)
+	↓
+工作区回退到之前提交 （git checkout -- <file>)
