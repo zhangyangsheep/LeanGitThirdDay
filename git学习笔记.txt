@@ -87,3 +87,7 @@ head指向工作区  git commit
 缓存区回退到工作区 （git reset HEAD <file>)
 	↓
 工作区回退到之前提交 （git checkout -- <file>)
+
+
+-- 远程仓库
+
